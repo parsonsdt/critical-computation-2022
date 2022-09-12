@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Critical Computation 2022 – Assignment 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <!--  this page looks at nav, background image/video -->
+
+  <header>
+    <h1>
+      <a href="index.html">Critical Computation</a>
+    </h1>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <a
+          href="https://docs.google.com/document/d/1r89s9uilE6eYASnkmAXnP3Z9lmzqW2ZwpUNUWqvv01M/edit?usp=sharing"
+          >Syllabus</a
+        >
+      </li>
+
+      <li>
+        <a href="../assignments.html">Assignments</a>
+      </li>
+      <li>
+        <a href="resources.html">Resources</a>
+      </li>
+      <li>
+        <a href="people.html">People</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Lost and Found</h2>
+
+    <h3>Objective</h3>
+    <p>
+      Draw a memory of an object described to you in plain language through
+      code.
+    </p>
+
+    <h3>Description</h3>
+    <p>
+      We remember the past through words and images. Oftentimes when we describe
+      our memories to our friends, our spoken words construct an image in their
+      mind. This image is an interpretation of our memories and inevitably will
+      look very different from the image in our mind. This is because unlike a
+      computer programming language, the human language is spectacularly
+      ambiguous. It is always approximate and never fully accurate.
+    </p>
+    <p>For example, to describe a smiley face:</p>
+
+    <details>
+      <summary>Human Language</summary>
+      <p>The person is looking straight ahead and carrying a smile.</p>
+    </details>
+
+    <details>
+      <summary>Computer Language</summary>
+      <code>
+        noFill();<br />
+        strokeWeight(4);<br />
+        stroke(0);<br />
+        ellipse(200, 200, 100, 100);<br />
+        arc(200, 215, 33, 30, 0, PI);<br />
+        fill(0);<br />
+        ellipse(180, 190, 10, 10);<br />
+        ellipse(220, 190, 10, 10);<br
+      /></code>
+    </details>
+
+    <p>
+      Assignment 1 explores this ambiguity in human language as well as the gap
+      between human language and computer language. Completed in pairs of two,
+      you will work with a partner and exchange a detailed description (a
+      memory) of a personal object you have lost in the past. Then based on the
+      description, you will create an image of the object for your partner in
+      p5.js.
+    </p>
+    <p>
+      The depiction of the object does not need to be an exact representation.
+      (In fact, this will likely be impossible.) The end result will be a
+      combination of how the memory of the object is described to you, your
+      interpretation of what that object looks like, and how you are able to
+      render the object through code.
+    </p>
+    <p>
+      The assessment of the assignment is not dependent on the work your partner
+      completes. Your work will be evaluated based on the code you produce and
+      reflections you write.
+    </p>
+
+    <h3>Design Constraint</h3>
+
+    <p>Canvas Size: 400 x 400px</p>
+
+    <h3>Timeline</h3>
+    <h4>Part 1 : DUE 9/2 (BFADT section B DUE: 9/1)</h4>
+    <ol>
+      <li>
+        Choose an object you have lost in the past that has meaning to you.
+      </li>
+      <li>
+        Describe your memory of the object using plain language. It is up to you
+        how much detail you impart, but be mindful of your own assumptions about
+        what your partner might know about the object.
+      </li>
+      <li>
+        Be prepared to share your written description in CC Lab on 9/2 & 9/1
+        (for BFADT section B) where you will be paired with a partner. Be ready
+        to discuss any questions you may have about the next part of the
+        assignment.
+      </li>
+    </ol>
+
+    <h4>Part 2: DUE 9/12 (deadline extended: Labor Day)</h4>
+
+    <ol>
+      <li>
+        Share your description (without any reference images) with your assigned
+        partner.
+      </li>
+      <li>
+        After exchanging descriptions, begin drawing that image on a piece of
+        paper. Then transfer the drawing in pseudocode. Be sure to include the
+        following technical components in your sketch:
+        <ul>
+          <li>2D primitives</li>
+          <li>fill() and blendMode()</li>
+          <li>Translate(), Rotate(), Push(), Pop()</li>
+        </ul>
+      </li>
+
+      <li>
+        Be sure to include the following information on your CC Portfolio
+        Assignment #1 page:
+        <ul>
+          <li class="bullet">Your p5 sketch (embedded iframe)</li>
+          <li class="bullet">Your name</li>
+          <li class="bullet">Your partner’s name</li>
+          <li class="bullet">The object description you received</li>
+          <li class="bullet">Your assignment reflections</li>
+        </ul>
+      </li>
+
+      <li>
+        Reflect upon the following:
+        <ul>
+          <li class="bullet">
+            The language your partner used to describe the image
+          </li>
+          <li class="bullet">Your interpretation of the image</li>
+          <li class="bullet">The depiction of the image using code</li>
+          <li class="bullet">
+            The differences in interpretation at all stages of the assignment
+          </li>
+        </ul>
+      </li>
+    </ol>
+
+    <h3>Submission Guidelines</h3>
+    <p>Please submit your sketch to two places:</p>
+    <ol>
+      <li>Submit the sketch to the CC Lab class Canvas Assignment 1</li>
+      <li>Add the sketch to your Critical Computation portfolio</li>
+    </ol>
+
+    <h3>Tutorials</h3>
+    <ul>
+      <li>
+        1.1 p5 Web Editor and the Console (<a
+          href="https://youtu.be/wiG7wLwyW0E"
+          >YouTube</a
+        >
+        /
+        <a
+          href="https://diode.zone/videos/watch/ce6aa5ed-7170-4b07-84db-5fa10199a55d"
+          >PeerTube</a
+        >), Xin Xin
+      </li>
+      <li>
+        1.2 2D Primitives (<a href="https://youtu.be/hISICBkFa4Q">YouTube</a>
+        /
+        <a
+          href="https://diode.zone/videos/watch/f791e49d-3be6-47b8-bad6-27aacadce78c"
+          >Peer Tube</a
+        >), Xin Xin
+      </li>
+      <li>
+        1.3 RGB Colors and blendMode() (<a
+          href="https://www.youtube.com/watch?v=fTEvHLLwSBE&feature=youtu.be"
+          >YouTube</a
+        >
+        /
+        <a
+          href="https://diode.zone/videos/watch/bf6a2187-93aa-494f-86a7-5834a20b4d47"
+          >PeerTube</a
+        >), Xin Xin
+      </li>
+      <li>
+        1.4 translate(), rotate(), push(), pop() (<a
+          href="https://www.youtube.com/watch?v=maTfm84mLbo&feature=youtu.be"
+          >YouTube</a
+        >
+        /
+        <a
+          href="https://diode.zone/videos/watch/37b25b2f-f067-4514-af58-f9087d7d9e34"
+          >PeerTube</a
+        >), Xin Xin
+      </li>
+      <li>
+        Embed p5 Sketch on Glitch (<a
+          href="https://www.youtube.com/watch?v=FkGnZTu51PQ&feature=youtu.be"
+          >YouTube</a
+        >), aarati akkapeddi
+      </li>
+    </ul>
+  </main>
+</html>

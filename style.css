@@ -1,0 +1,157 @@
+:root {
+  --color-bg: white;
+  --color-text-main: #000000;
+  --color-primary: #ffff00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+}
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Import fonts */
+
+@font-face {
+  font-family: Open-Dyslexic-Bold;
+  src: url("https://cdn.glitch.global/df93a140-5a49-4828-bbb2-731ee29b5e22/OpenDyslexic-Bold.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: Open-Dyslexic-Regular;
+  src: url("https://cdn.glitch.global/df93a140-5a49-4828-bbb2-731ee29b5e22/OpenDyslexic-Regular.otf")
+    format("opentype");
+}
+
+/* Add typeface options */
+/* Add colour contrast check; colour combinations; colour contrast guide; naming convention*/
+/* Add CSS variables */
+/* Find courses to use as content */
+
+/* Complete website and 2 templates 
+figure out license
+testing by sharing it */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: var(--color-bg);
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  color: darkorange;
+}
+
+header a {
+  text-decoration: none;
+  color: darkorange;
+}
+
+nav {
+  max-width: 40rem;
+  margin: 0;
+
+  margin-bottom: 5rem;
+
+  /*   display:block; */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  outline: 1px solid;
+  /*   background: grey; */
+  padding: 0.5rem 0.5rem;
+  display: inline;
+  /*   padding-right: 10px; */
+  margin-right: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#selected {
+  background: grey;
+  outline: none;
+}
+
+#selected a {
+  color: white;
+}
+#headerimage {
+  max-width: 100%;
+  padding: 3%;
+  background-image: url("https://cdn.glitch.global/df93a140-5a49-4828-bbb2-731ee29b5e22/background-image.png");
+  background-color: black;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+main {
+  max-width: 40rem;
+  margin-bottom: 5rem;
+}
+
+figure {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 35pt;
+  font-family: Open-Dyslexic-Bold, sans-serif;
+}
+
+h2 {
+  font-size: 28pt;
+}
+
+h2,
+h3 {
+  margin-top: 3rem;
+  font-family: Open-Dyslexic-Bold, sans-serif;
+}
+
+h4,
+h5 {
+  font-family: Open-Dyslexic-Regular, sans-serif;
+}
+
+#block {
+  display: block;
+  line-height: 2;
+  width: 100%;
+  background: rgb(230, 230, 230);
+  padding: 1px;
+  margin-bottom: 2vw;
+  border-radius: 3px;
+  white-space: pre-wrap;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  font-size:15px;
+  padding: 5px;
+}
