@@ -13,6 +13,7 @@ This is the [website](https://parsonsdt.github.io/critical-computation-2022/) fo
 - [Gabriel-Lee Dekoladenu](https://www.gabedeko.com/)
 - [Lai Yi Ohlsen](https://www.laiyiohlsen.com/)
 - [Mark Ramos](https://www.markhramos.net/)
+- [Morgan Mueller](http://morganmueller.xyz/)
 - [Regina Flores Mir](http://www.reginafloresmir.com/)
 - [Senyan Luo](https://www.bubbly-senyan.com/)
 - [Tyler Yin](https://tyleryin.co/)
