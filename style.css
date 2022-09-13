@@ -52,18 +52,20 @@ a {
   color: darkorange;
 }
 
-header a {
+a:hover{
+  color: DarkOrchid;
+}
+
+header a, header a:hover {
   text-decoration: none;
   color: darkorange;
 }
 
 nav {
+  display: inline-block;
   max-width: 40rem;
   margin: 0;
-
   margin-bottom: 5rem;
-
-  /*   display:block; */
 }
 
 nav ul {
@@ -72,12 +74,29 @@ nav ul {
 }
 
 nav ul li {
-  outline: 1px solid;
-  /*   background: grey; */
+  outline: 2px solid;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 2rem 1rem 0;
+  cursor: pointer;
+}
+
+nav ul li:hover{
+  outline: 2px solid;
+  border-radius: 5px;
+  background: black;
+  color: black;
+}
+
+nav ul li a{
+  display: block;
+  width: inherit;
+  height: inherit;
   padding: 0.5rem 0.5rem;
-  display: inline;
-  /*   padding-right: 10px; */
-  margin-right: 2rem;
+}
+
+nav ul li a:hover {
+  color: white;
 }
 
 nav a {
@@ -86,8 +105,8 @@ nav a {
 }
 
 #selected {
-  background: grey;
-  outline: none;
+  background: black;
+  outline: 2px solid;
 }
 
 #selected a {
