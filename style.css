@@ -63,9 +63,8 @@ header a, header a:hover {
 
 nav {
   display: inline-block;
-  max-width: 40rem;
+  max-width: 50rem;
   margin: 0;
-  margin-bottom: 5rem;
 }
 
 nav ul {
@@ -113,7 +112,7 @@ nav a {
   color: white;
 }
 #headerimage {
-  max-width: 100%;
+  max-width: 80%;
   padding: 3%;
   background-image: url("https://cdn.glitch.global/df93a140-5a49-4828-bbb2-731ee29b5e22/background-image.png");
   background-color: black;
@@ -125,7 +124,7 @@ nav a {
 }
 
 main {
-  max-width: 40rem;
+  max-width: 50rem;;
   margin-bottom: 5rem;
 }
 
