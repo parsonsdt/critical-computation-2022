@@ -123,7 +123,7 @@ nav a {
   justify-content: center;
 }
 
-main {
+main, section {
   max-width: 50rem;;
   margin-bottom: 5rem;
 }
