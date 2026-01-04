@@ -1,4 +1,5 @@
 # Critical Computation 2022
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This is the [website](https://parsonsdt.github.io/critical-computation-2022/) for Critical Computation, an undergraduate and graduate-level course at Parsons Design & Technology at the New School.
 
@@ -34,3 +35,14 @@ Lab expands the topics covered in CC Lecture through extended tutorials, pair-pr
 1. Ability to discuss and create work through a critical lens and reference computational arts and culture through a non-Western-centric, multilinear perspective.
 1. Gain insights into the social impact of code; how it creates empowerments and disempowerment under different contexts.
 1. Acquire a basic understanding of how to assess and manipulate data critically via APIs and regular expressions.
+
+## License and Attribution
+
+The Critical Computation course content designed by [Xin Xin](https://xin-xin.info) and [Katherine Moriwaki](https://kakirine.com/) is licensed under 
+[CC BY-NC-SA 4.0][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
